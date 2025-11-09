@@ -19,11 +19,11 @@ This project helps me learn:
 
 ## 🗂️ Current Files
 
-login.php,
-signup.php,
-profile.php,
-timeline.php,
-assets
+- login.php,
+- signup.php,
+- profile.php,
+- timeline.php,
+- assets
 ---
 
 ## 🛠️ Technologies
@@ -64,3 +64,4 @@ This repo is a **learning log and portfolio project**.
 - Friend/follow system  
 - Notifications & messaging  
 - UI improvements & admin panel
+

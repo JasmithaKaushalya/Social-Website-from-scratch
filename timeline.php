@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile | Mybook</title>
+    <title>Timeline | Mybook</title>
 </head>
 
 <style>
@@ -32,7 +32,6 @@
 
     #profile_pic {
         width: 150px;
-        margin-top: -200px;
         border-radius: 50%;
         border: solid 2px white;
 
@@ -51,11 +50,13 @@
     }
 
     #friends_bar {
-        background-color: white;
+        
         min-height: 400px;
         margin-top: 20px;
-        color: #aaa;
+        color: #405d9b;
         padding: 8px;
+        text-align: center;
+        font-size: 20px;
     }
 
     #friends {
@@ -117,20 +118,6 @@
     <!-- cover area -->
     <div style="width: 800px; margin:auto; min-height:400px;">
 
-        <div style="background-color:white; text-align: center; color: #405d9b">
-            <img src="assets/mountain.jpg" style="width: 100%;">
-            <img id="profile_pic" src="assets/selfie.jpg">
-            <br>
-            <div style="font-size:20px">Mary Banda</div>
-            <br>
-
-            <div id="menu_buttons">Timeline</div>
-            <div id="menu_buttons">About</div>
-            <div id="menu_buttons">Friends</div>
-            <div id="menu_buttons">Photos</div>
-            <div id="menu_buttons">Settings</div>
-        </div>
-
         <!-- below cover area -->
         <div style="display: flex; ">
 
@@ -138,30 +125,9 @@
             <div style=" min-height:400px; flex:1;">
 
                 <div id="friends_bar">
-                    Friends<br>
-                    <div id="friends">
-                        <img id="friends_img" src="assets/user1.jpg" alt="User 1">
-                        <br>
-                        First User
-                    </div>
-
-                    <div id="friends">
-                        <img id="friends_img" src="assets/user2.jpg" alt="User 2">
-                        <br>
-                        Second User
-                    </div>
-
-                    <div id="friends">
-                        <img id="friends_img" src="assets/user3.jpg" alt="User 3">
-                        <br>
-                        African Girl
-                    </div>
-
-                    <div id="friends">
-                        <img id="friends_img" src="assets/user4.jpg" alt="User 4">
-                        <br>
-                        African Dude
-                    </div>
+                    <img src="assets/selfie.jpg" id="profile_pic">
+                    <br>
+                    Mary Banda
                 </div>
 
             </div>
